@@ -44,6 +44,115 @@
         <!-- =============== Practica de etiquetas de Listas =============== -->
          <main>
             <h1> Practica de Listas </h1>
+
+            <!-- Listas ordenadas, No ordenadas, Aindades y Definición-->
+            <!-- =============== Listas Ordenadas =============== -->
+            <h3> Listas Ordenadas </h3>
+            <!-- Se usa en el momento de presentar items en un orden especifico o inalterable-->
+            <h2> Los dias de la Semana  (Orden por Default) </h2>
+            <ol>
+                <li> Lunes </li>
+                <li>Martes</li>
+                <li>Miércoles</li>
+                <li>Jueves</li>
+                <li>Viernes</li>
+                <li>Sábado</li>
+                <li>Domingo</li>
+            </ol>
+
+            <h2> Los meses del año (Orden Personalizado) </h2>
+            <ol type="I">
+                <li>Enero</li>
+                <li>Febrero</li>
+                <li>Marzo</li>
+                <li>Abril</li>
+                <li>Mayo</li>
+            </ol>
+
+            <hr>
+            <!-- =============== Listas No Ordenadas =============== -->
+            <h3> Listas No Ordenadas </h3>
+            <!-- No tienen un orden especifico, es decir, no son predefinidos. Su orden y presentacion no importan-->
+            <h2> Receta para Seco de Pollo  (Viñeta por Default) </h2>
+            <ul>
+                <li>Naranjilla</li>
+                <li>Ajo</li>
+                <li>Pollo</li>
+                <li>Tomate</li>
+                <li>Cebolla</li>
+            </ul>
+
+            <!-- 
+                list-style-type: disc;
+                list-style-type: circle;
+                list-style-type: square;
+                list-style-type: decimal;
+                list-style-type: georgian;
+                list-style-type: katakana;
+            -->
+            <h2> Receta para SGalletas Navideñas (Viñeta seleccionada) </h2>
+            <ul style="list-style-type: katakana-iroha">
+                <li>Leche</li>
+                <li>Huevo</li>
+                <li>Levadura</li>
+                <li>Azucar</li>
+                <li>Mantequilla</li>
+            </ul>
+
+            <h2> Receta para SGalletas Navideñas (Viñeta seleccionada) </h2>
+            <ul style="list-style-image: url(../img/Hitmonlee.ico)">
+                <li>Charmander</li>
+                <li>Charmeleon</li>
+                <li>Charizard</li>
+            </ul>
+
+            <hr>
+            <!-- =============== Listas Anidadas =============== -->
+            <h3> Listas Anidadas </h3>
+            <!-- Una lista dentro de otra. Puedo ser una ul dentro de una ol, o viceversa.-->
+            <h2> Estaciones del Año  (Orden por Default) </h2>
+            <ol>
+                <li>Primavera</li>
+                    <ul>
+                        <li>Marzo</li>
+                        <li>Abril</li>
+                        <li>Mayo</li>
+                    </ul>
+                <li>Verano</li>
+                    <ul>
+                        <li>Junio</li>
+                        <li>Julio</li>
+                        <li>Agosto</li>
+                    </ul>
+                <li>Otoño</li>
+                    <ul>
+                        <li>Septiembre</li>
+                        <li>Octubre</li>
+                        <li>Noviembre</li>
+                    </ul>
+                <li>Invierno</li>
+                    <ul>
+                        <li>Diciembre</li>
+                        <li>Enero</li>
+                        <li>Febrero</li>
+                    </ul>
+            </ol>
+
+            <hr>
+            <!-- =============== Listas Definicion =============== -->
+            <h3> Listas de Definición </h3>
+            <!-- Sirve para enlistar varias preguntas con sus respectivas respuestas -->
+            <dl>
+                <dt>Atienden los fines de semana:</dt>
+                <dd>No, no lo hacemos</dd>
+
+                <dt>Atienden los domiengos:</dt>
+                <dd>No, es parte del fin de semana</dd>
+
+                <dt>Atienden en feriado:</dt>
+                <dd>No, tenemos familia</dd>
+            </dl>
+
          </main>
 
         <hr>

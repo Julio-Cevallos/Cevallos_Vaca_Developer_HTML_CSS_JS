@@ -6,7 +6,7 @@
         <meta name="descripcion" content="practicas-- HTML, CSS, JS"> <!--  -->
         <meta name="keywords" content="HTML, CSS, JavaScript"> <!--  -->
         <meta name="author" content="Julio Cevallos"> <!--  -->
-        <meta http-equiv="refresh" content="10"> <!--  -->
+        <meta http-equiv="refresh" content="300"> <!--  -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--  -->
         <meta> <!--  -->
 
@@ -43,7 +43,47 @@
         <hr>
         <!-- =============== Practica de etiquetas de Imagen =============== -->
          <main>
-            <h1> Practica de FImagen </h1>
+            <h1> Practica de Imagen </h1>
+
+            <!-- =============== Frame para importar una pagina externa dentro de mi sitio=============== -->
+            <iframe
+            title="Pagina externa"
+            width="1000"
+            height="500"
+            src="https://www.lipsum.com/"
+            style="border: 1px solid">
+            </iframe>
+            <hr>
+            <!-- =============== Etiquetas de Imagen =============== -->
+            <h3> Etiqueta img básica (Imagen Local)</h3>
+            <img src="../img/bullbasuur.jpeg" width="300px" height="300px" alt="bullbasuur">
+            <hr>
+
+            <!-- =============== Etiquetas de Imagen Externa =============== -->
+            <h3> Etiqueta img básica (Imagen Externa)</h3>
+            <img src="https://cdn.pixabay.com/collection/thumbnail/2025/06/05/island-2722471_1280.jpg" width="300px" height="300px" alt="paisaje">
+            <hr>
+
+            <!-- =============== Mapeo de Imagen =============== -->
+             <img
+             src="../img/Cloud.png"
+             alt="Red de computadoras"
+             usemap="#NubeComputadora">
+             <map name="NubeComputadora">
+                <area
+                shape="poly"
+                alt="Computadora de Escritorio"
+                coords="414,54,478,85,513,66,546,85,539,207,478,224,348,135,397,115,411,52"
+                href="../pages/Practica_crazy.html">
+                </area>
+             </map>
+             <hr>
+            <!-- =============== Frame con video de YouTube =============== -->
+             <iframe width="300" height="300" 
+             src="https://www.youtube.com/embed/Rsv2VkoIpk0?si=FvgzUwSxsCkD3D2j" 
+             title="YouTube video player" frameborder="1" 
+             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
          </main>
 
         <hr>
